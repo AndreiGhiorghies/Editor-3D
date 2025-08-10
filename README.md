@@ -96,13 +96,15 @@ Editor 3D is a desktop application for Windows, written in C++, that allows you 
 
 ## 🖥️ Requirements
 - Windows
+- 32-bit C++ compiler
 - WinBGIm: [Installation tutorial](https://www.youtube.com/watch?v=QMom7QbX7IM&t)
 
 ## 🔧 Compilation
 Compilation command:
 ```bash
-g++ Editor_3D.cpp .\Source\*.cpp -o Editor_3D -IC:/bgi/include -LC:/bgi/lib -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+g++ Editor_3D.cpp .\Icon\resource.o .\Source\*.cpp -o Editor_3D -IC:/bgi/include -LC:/bgi/lib -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -lwinmm -mwindows  
 ```
 
 ## 📄 License
 Open-source project under the MIT license.
+
