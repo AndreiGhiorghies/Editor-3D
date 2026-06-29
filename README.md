@@ -92,7 +92,7 @@ Editor 3D is a desktop application for Windows, written in C++, that allows you 
   - `Delete` to delete selected points
   - `Ctrl+Delete` to delete selected objects
 
-## 🚀 Download the application: [HERE](https://github.com/AndreiGhiorghies/Editor-3D/releases/download/v1.0.1/Editor_3D.exe)
+## 🚀 Download the application: [HERE](https://github.com/AndreiGhiorghies/Editor-3D/releases/download/v1.0.2/Editor_3D.exe)
 
 ## 🖥️ Requirements
 - Windows
